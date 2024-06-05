@@ -1,0 +1,43 @@
+
+body{
+    /* border: 2px solid black; */
+   
+    width:1900px ;
+    background: linear-gradient(white, rgb(125, 125, 161));
+    
+    background-size:cover ;
+    width: 1000px;
+    text-align: center;
+}
+.wrapper{
+    display: inline;
+    
+}
+
+.gif{
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+    background-image: url("ribbon.avif");
+    background-size: cover;
+
+}
+
+#gif-traffic:hover{
+    background-image: url("background.webp");
+}
+
+#gif-funny{
+    width: 600px;
+}
+#gif-funny:hover{
+background-image: url("funny.webp");
+}
+
+#gif-horror{
+    width: 800px;
+}
+#gif-horror:hover{
+background-image: url("horror.webp");
+background-size: cover;
+}
